@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Web</title>
+</head>
+<body>
+  <nav class="navbar mb-3" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="mb-3">
+          <label 
+            for="nombre" 
+            class="form-label">
+            Nombre
+          </label>
+          <input 
+            type="text" 
+            class="form-control" 
+            id="nombre" 
+            placeholder="Ingresa nombre">
+        </div>
+      </div>
+      <div class="col-4">
+        <label 
+            for="edad" 
+            class="form-label">
+            Edad
+          </label>
+          <input 
+            type="number" 
+            class="form-control" 
+            id="edad" 
+            placeholder="Ingresa edad">
+      </div>
+      <div class="col-4">
+        <label 
+            for="email" 
+            class="form-label">
+            Email
+          </label>
+          <input 
+            type="email" 
+            class="form-control" 
+            id="email" 
+            placeholder="Ingresa email">
+      </div>
+      <div class="col-4">
+        <label 
+            for="fecha" 
+            class="form-label">
+            Fecha
+          </label>
+          <input 
+            type="date" 
+            class="form-control" 
+            id="fecha" 
+            placeholder="Ingresa fecha">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-5">
+        <button 
+          type="button"
+          onclick="agregarFuncion()" 
+          class="btn btn-outline-success w-100">
+          Agregar
+        </button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+      <div class="col-10">
+        <img src="img/pika.jpeg" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="jsCustom/custom.js"></script>
+</body>
+</html>
